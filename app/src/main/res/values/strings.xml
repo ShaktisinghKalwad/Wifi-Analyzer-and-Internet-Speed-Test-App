@@ -1,0 +1,166 @@
+<resources>
+    <string name="app_name">Wifi Analyzer</string>
+
+    <string name="internet_speed_title">Internet Speed</string>
+
+    <string name="notification_permission_required_title">Notification permission required</string>
+    <string name="notification_permission_required_message">To run an Internet speed test in the background, Android requires notification permission for the foreground service.</string>
+    <string name="grant_permission">Grant permission</string>
+
+    <string name="speed_test_error_title">Speed test error</string>
+    <string name="open_network_settings">Open network settings</string>
+
+    <string name="wifi_required_subtitle">Wi-Fi required • Measures real throughput</string>
+
+    <string name="duration_label">Duration</string>
+    <string name="data_used_label">Data used</string>
+
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="run_again">Run again</string>
+
+    <string name="download">Download</string>
+    <string name="upload">Upload</string>
+    <string name="live_speed_label">Live speed</string>
+    <string name="unit_mb_per_s">MB/s</string>
+    <string name="unit_mbps">Mbps</string>
+    <string name="avg_short">Avg</string>
+    <string name="peak_short">Peak</string>
+
+    <string name="stage_ready">Ready</string>
+    <string name="stage_starting_in">Starting in %1$ds</string>
+    <string name="stage_testing_download">Testing download</string>
+    <string name="stage_preparing_upload">Preparing upload</string>
+    <string name="stage_testing_upload">Testing upload</string>
+    <string name="stage_completed">Completed</string>
+    <string name="stage_error">Error</string>
+
+    <string name="speed_test_notification_channel_name">Internet speed test</string>
+    <string name="speed_test_notification_title">Internet speed test</string>
+    <string name="speed_test_notification_download">Download %1$s MB/s • %2$s%%</string>
+    <string name="speed_test_notification_upload">Upload %1$s MB/s • %2$s%%</string>
+    <string name="speed_test_notification_preparing_upload">Preparing upload… • %1$s%%</string>
+    <string name="speed_test_notification_done">Done • D %1$s / U %2$s MB/s</string>
+
+    <string name="speed_test_notification_download_mbps">Download %1$s Mbps • %2$s%%</string>
+    <string name="speed_test_notification_upload_mbps">Upload %1$s Mbps • %2$s%%</string>
+    <string name="speed_test_notification_done_mbps">Done • D %1$s / U %2$s Mbps</string>
+
+    <string name="a11y_speed_value_mb_per_s">%1$s megabytes per second</string>
+    <string name="a11y_speed_value_mbps">%1$s megabits per second</string>
+
+    <string name="a11y_average_speed_value_mb_per_s">Average %1$s megabytes per second</string>
+    <string name="a11y_peak_speed_value_mb_per_s">Peak %1$s megabytes per second</string>
+    <string name="a11y_average_speed_value_mbps">Average %1$s megabits per second</string>
+    <string name="a11y_peak_speed_value_mbps">Peak %1$s megabits per second</string>
+    <string name="a11y_total_progress_percent">Total progress %1$d percent</string>
+    <string name="a11y_phase_progress_percent">Phase progress %1$d percent</string>
+
+    <string name="channel_analyzer_title">Channel Analyzer</string>
+    <string name="channel_analyzer_settings">Settings</string>
+    <string name="channel_analyzer_waiting_for_scan">Waiting for scan results…</string>
+    <string name="channel_analyzer_recommended">Recommended: %1$s</string>
+    <string name="channel_analyzer_recommended_width">Recommended (%1$d MHz): %2$s</string>
+    <string name="channel_analyzer_graph_title">Interference score (lower is better)</string>
+    <string name="channel_analyzer_overlap_title">Overlap (higher curves = stronger interference)</string>
+
+    <string name="channel_analyzer_graph_mode_score">Score</string>
+    <string name="channel_analyzer_graph_mode_overlap">Overlap</string>
+
+    <string name="channel_analyzer_avoid_dfs">Avoid DFS channels</string>
+    <string name="channel_analyzer_avoid_dfs_desc">Some routers may avoid DFS due to radar detection events.</string>
+    <string name="channel_analyzer_prefer_2g_non_overlapping">Prefer 1/6/11 on 2.4 GHz</string>
+    <string name="channel_analyzer_prefer_2g_non_overlapping_desc">Limits recommendations to the most compatible 2.4 GHz channels.</string>
+    <string name="channel_analyzer_prefer_psc_6g">Prefer PSC on 6 GHz</string>
+    <string name="channel_analyzer_prefer_psc_6g_desc">Limits 6 GHz recommendations to Preferred Scanning Channels.</string>
+    <string name="channel_analyzer_recommendation_width">Recommendation width</string>
+
+    <string name="channel_analyzer_why_recommended">Why recommended?</string>
+    <string name="channel_analyzer_channel_label">Channel %1$d</string>
+    <string name="channel_analyzer_no_interferers">No nearby interferers detected.</string>
+    <string name="channel_analyzer_interferer_line">%1$s (%2$d dBm) • ch %3$d • %4$d MHz</string>
+
+    <string name="cancel">Cancel</string>
+
+    <string name="settings_title">Settings</string>
+    <string name="settings_reset_action">Reset</string>
+    <string name="settings_reset_title">Reset settings?</string>
+    <string name="settings_reset_message">This will restore all settings to safe defaults.</string>
+    <string name="settings_reset_confirm">Reset</string>
+
+    <string name="settings_section_ui_title">UI &amp; UX</string>
+    <string name="settings_section_ui_desc">Appearance and display preferences.</string>
+    <string name="settings_theme">Theme</string>
+    <string name="settings_dynamic_color">Material You dynamic color</string>
+    <string name="settings_dynamic_color_desc">Uses your wallpaper colors (Android 12+).</string>
+    <string name="settings_font_scale">Font scale</string>
+    <string name="settings_graph_density">Graph density</string>
+    <string name="settings_pro_mode">Pro mode</string>
+    <string name="settings_pro_mode_desc">Shows advanced settings and diagnostics.</string>
+
+    <string name="settings_section_wifi_title">Wi‑Fi Scan &amp; Analysis</string>
+    <string name="settings_section_wifi_desc">Scanning frequency and analysis options.</string>
+    <string name="settings_scan_interval">Scan interval</string>
+    <string name="settings_signal_unit">Signal unit</string>
+    <string name="settings_band_2g">2.4 GHz</string>
+    <string name="settings_band_5g">5 GHz</string>
+    <string name="settings_band_6g">6 GHz</string>
+    <string name="settings_channel_overlap">Channel overlap</string>
+    <string name="settings_rssi_smoothing">RSSI smoothing</string>
+    <string name="settings_rssi_smoothing_strength">Smoothing strength</string>
+    <string name="settings_width_20">Show 20 MHz</string>
+    <string name="settings_width_40">Show 40 MHz</string>
+    <string name="settings_width_80">Show 80 MHz</string>
+    <string name="settings_width_160">Show 160 MHz</string>
+
+    <string name="settings_section_speed_test_title">Speed Test</string>
+    <string name="settings_section_speed_test_desc">Units and testing preferences.</string>
+    <string name="settings_speed_unit">Speed unit</string>
+    <string name="settings_speed_test_mode">Test mode</string>
+    <string name="settings_server_selection">Server selection</string>
+    <string name="settings_manual_server_url">Manual server URL</string>
+    <string name="settings_jitter_packet_loss">Jitter &amp; packet loss</string>
+    <string name="settings_graph_style">Graph style</string>
+
+    <string name="settings_section_alerts_title">Alerts &amp; Automation</string>
+    <string name="settings_section_alerts_desc">Notifications and background behavior.</string>
+    <string name="settings_weak_signal_threshold">Weak signal alert threshold</string>
+    <string name="settings_wifi_disconnect_notification">Wi‑Fi disconnect notification</string>
+    <string name="settings_network_change_detection">Network change detection</string>
+    <string name="settings_background_auto_scan">Background auto‑scan</string>
+    <string name="settings_background_auto_scan_desc">May increase battery use. Respects Doze and system limits.</string>
+
+    <string name="settings_section_history_title">History &amp; Logs</string>
+    <string name="settings_section_history_desc">Store scans and export diagnostics.</string>
+    <string name="settings_enable_history">Enable scan history</string>
+    <string name="settings_history_retention">History retention</string>
+    <string name="settings_export_format">Export format</string>
+    <string name="settings_auto_clear_logs">Auto-clear old logs</string>
+    <string name="settings_retention_1h">1 hour</string>
+    <string name="settings_retention_24h">24 hours</string>
+    <string name="settings_retention_7d">7 days</string>
+
+    <string name="settings_section_performance_title">Performance &amp; Battery</string>
+    <string name="settings_section_performance_desc">Limits and adaptive behavior for efficiency.</string>
+    <string name="settings_battery_saver">Battery saver mode</string>
+    <string name="settings_battery_saver_desc">Prefers battery-efficient defaults and reduces background work.</string>
+    <string name="settings_adaptive_scan_engine">Adaptive scan engine</string>
+    <string name="settings_thread_priority">Thread priority</string>
+
+    <string name="settings_section_privacy_title">Privacy &amp; Security</string>
+    <string name="settings_section_privacy_desc">Control what is collected and stored.</string>
+    <string name="settings_local_only_processing">Local-only processing</string>
+    <string name="settings_open_permission_settings">Open permission settings</string>
+
+    <string name="settings_section_developer_title">Advanced / Developer</string>
+    <string name="settings_section_developer_desc">Diagnostics and experimental options.</string>
+    <string name="settings_app_version_tap_hint">Tap “App version” 7 times to enable developer mode.</string>
+    <string name="settings_app_version_row">App version</string>
+    <string name="settings_dev_raw_scan_data">Raw scan data</string>
+    <string name="settings_dev_phy_mode">PHY mode display</string>
+    <string name="settings_dev_link_speed">TX/RX link speed</string>
+
+    <string name="settings_dev_already_enabled">Developer mode is already enabled.</string>
+    <string name="settings_dev_enabled">Developer mode enabled.</string>
+    <string name="settings_dev_taps_remaining">%1$d more taps to enable developer mode.</string>
+</resources>
